@@ -17,7 +17,7 @@ mongoose.set('strictQuery', true)
   .connect(process.env.MONGO_URL)
   .then(() => app.listen(process.env.PORT))
   .then(() => {
-    console.log("dataBase connected and listening to port 3000");
+    console.log("dataBase connected and listening to port 3000 ");
   })
   .catch((error) => {
     console.log(`Error connecting DataBase and the error code is: ${error}`)
