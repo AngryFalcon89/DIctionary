@@ -20,5 +20,5 @@ mongoose.set('strictQuery', true)
     console.log("dataBase connected and listening to port 3000");
   })
   .catch((error) => {
-    console.log(`Error connecting DataBase with error code in main brach: ${error}`)
+    console.log(`Error connecting DataBase and the error code is: ${error}`)
   });
